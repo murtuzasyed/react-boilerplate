@@ -1,11 +1,25 @@
 {
-  "name": "weather",
+  "name": "weather-react",
   "version": "0.1.0",
   "description": "React component for a week's weather",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtuzasyed/weather-react.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/murtuzasyed/weather-react/issues"
+  },
+  "homepage": "https://github.com/murtuzasyed/weather-react#readme",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
 }
