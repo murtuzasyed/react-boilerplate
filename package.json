@@ -1,5 +1,5 @@
 {
-  "name": "weather",
+  "name": "weather-react",
   "version": "0.1.0",
   "description": "React component for a week's weather",
   "main": "index.js",
