@@ -4,6 +4,7 @@
   "description": "React component for a week's weather",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/murtuzasyed/weather-react/issues"
   },
-  "homepage": "https://github.com/murtuzasyed/weather-react#readme"
+  "homepage": "https://github.com/murtuzasyed/weather-react#readme",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
 }
