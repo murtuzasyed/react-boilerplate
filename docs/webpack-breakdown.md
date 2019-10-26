@@ -199,3 +199,31 @@ pretty-quick --staged
 ```
 
 allows to do formatting on staged files only.
+
+#### Dealing with deprecated react api
+
+UNSAFE_componentWillMount instead.
+
+Browse will complain in the console when using React.StrictMode
+
+#### Create an Error Bounday for a REact App
+
+Basically a wrapper component that returns an error or the children
+
+`getDerivedStateFromError` returns the state when error occurred.
+
+### Proptypes error
+
+requires all props to have a type.
+
+children: propTypes.node.isRequired says the children should be a react node.
+
+#### Finding accessibilty issues in browser using react-axe only in development mode
+
+For example, breaking semantics by using h3 after h1 instead of h2.
+
+Import react-axe using require and invoke it with React, ReactDOM and sometime generally a second.
+
+#### Cloning the boilerplate
+
+git clone --depth=1 <git repo> <new-repo>
