@@ -1,1 +1,1 @@
-# A React App for displaying Weather
+# A React boilterplate app
